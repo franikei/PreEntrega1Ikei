@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/franikei.github.io/PreEntrega1Ikei/static/css/main.3e1c016c.css",
-    "main.js": "/franikei.github.io/PreEntrega1Ikei/static/js/main.3e84e02c.js",
-    "index.html": "/franikei.github.io/PreEntrega1Ikei/index.html",
-    "main.3e1c016c.css.map": "/franikei.github.io/PreEntrega1Ikei/static/css/main.3e1c016c.css.map",
-    "main.3e84e02c.js.map": "/franikei.github.io/PreEntrega1Ikei/static/js/main.3e84e02c.js.map"
+    "main.css": "/PreEntrega1Ikei/static/css/main.3e1c016c.css",
+    "main.js": "/PreEntrega1Ikei/static/js/main.3e84e02c.js",
+    "index.html": "/PreEntrega1Ikei/index.html",
+    "main.3e1c016c.css.map": "/PreEntrega1Ikei/static/css/main.3e1c016c.css.map",
+    "main.3e84e02c.js.map": "/PreEntrega1Ikei/static/js/main.3e84e02c.js.map"
   },
   "entrypoints": [
     "static/css/main.3e1c016c.css",
