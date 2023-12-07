@@ -13,7 +13,7 @@ const App = () => {
           <Route path="/" element={<ItemListContainer greeting="¡Bienvenido a Aki Amai!"  />} />
           <Route path="/category/:id" element={<ItemListContainer />} />
           <Route path="/item/:id" element={<ItemDetailContainer />} />
-          {/* Agrega más rutas según sea necesario */}
+          
         </Routes>
       </div>
     </Router>

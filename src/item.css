@@ -1,5 +1,5 @@
 .item-list-container {
-    max-width: 800px; /* Ajusta el ancho máximo del contenedor principal según tus preferencias */
+    max-width: 800px;
     margin: 0 auto;
   }
   
@@ -8,12 +8,12 @@
     padding: 10px;
     margin: 10px;
     text-align: center;
-    max-width: 300px; /* Ajusta el ancho máximo del cuadro de cada producto */
-    margin: 0 auto; /* Centra el cuadro en el contenedor principal */
+    max-width: 300px; 
+    margin: 0 auto; 
   }
   
   .item-image {
-    max-width: 100%; /* La imagen se ajustará al ancho máximo del cuadro */
+    max-width: 100%; 
     height: auto;
   }
   

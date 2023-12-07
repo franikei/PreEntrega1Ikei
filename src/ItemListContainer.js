@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import productosData from './productos.json'; // Importa tus datos de productos
+import productosData from './productos.json'; 
 import './item.css';
 
 const ItemListContainer = ({ greeting, categoryId }) => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    // Simula la carga de datos desde el archivo JSON local
-    // Filtra los productos por categoría y/o ID específico
+    
     const filteredProducts = productosData.filter(
       (product) => product.categoria === categoryId
     );
