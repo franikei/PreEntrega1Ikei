@@ -1,15 +1,15 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
 import miLogo from './img/AKIAMAIlogo.png';
 import './App.css';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light" >
-      <a className="navbar-brand" href="#">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <Link to="/" className="navbar-brand">
         <img src={miLogo} alt="Aki amai logo" style={{ width: '100px', height: 'auto' }} />
-      </a>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -24,25 +24,21 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="#">
+            <Link to="/" className="nav-link">
               Inicio <span className="sr-only"></span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link to="/category/productos" className="nav-link">
               Productos
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              Contacto
-            </a>
+            <Link to="/category/combos" className="nav-link">
+              Combos
+            </Link>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              Nosotros
-            </a>
-          </li>
+          {/* Agrega más enlaces según sea necesario */}
           <li className="nav-item">
             <CartWidget itemCount={14} />
           </li>

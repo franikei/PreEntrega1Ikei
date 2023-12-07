@@ -1,0 +1,31 @@
+.item-list-container {
+    max-width: 800px; /* Ajusta el ancho máximo del contenedor principal según tus preferencias */
+    margin: 0 auto;
+  }
+  
+  .item-container {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    max-width: 300px; /* Ajusta el ancho máximo del cuadro de cada producto */
+    margin: 0 auto; /* Centra el cuadro en el contenedor principal */
+  }
+  
+  .item-image {
+    max-width: 100%; /* La imagen se ajustará al ancho máximo del cuadro */
+    height: auto;
+  }
+  
+  .item-name {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .item-price {
+    color: green;
+  }
+
+  .item-description {
+    color: black; 
+  }

@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "nombre": "Dorayaki",
+      "descripcion": "Postre tradicional japonés que consiste en dos pequeños panqueques esponjosos y redondos rellenos de una pasta dulce.",
+      "precio": 4000,
+      "imagen": "img/dora500.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Castella",
+      "descripcion": "El castella es un pastel esponjoso y suave, hecho principalmente con ingredientes simples como azúcar, harina, huevos y miel. ",
+      "precio": 3500,
+      "imagen": "img/castella500.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Cupcakes",
+      "descripcion": "El cheesecake japonés se caracteriza por su textura esponjosa, ligera y suave, a diferencia del cheesecake tradicional que tiene una textura más densa y cremosa.",
+      "precio": 6200,
+      "imagen": "img/cup500.png"
+    }
+  ]
