@@ -4,11 +4,11 @@ import productosData from './productos.json';
 import './item.css';
 
 const ItemDetailContainer = () => {
-  const [producto, setProducto] = useState(null);
   const { id } = useParams();
+  const [producto, setProducto] = useState(null);
 
   useEffect(() => {
-    
+   
     const productoEncontrado = productosData.find((p) => p.id === parseInt(id, 10));
 
     if (productoEncontrado) {
@@ -27,7 +27,6 @@ const ItemDetailContainer = () => {
           <img src={producto.imagen} alt={producto.nombre} className="item-image" />
           <p className="item-description">{producto.descripcion}</p>
           <p className="item-price">${producto.precio}</p>
-          
         </>
       ) : (
         <p>Cargando...</p>

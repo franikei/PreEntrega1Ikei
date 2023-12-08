@@ -1,23 +1,26 @@
 [
-    {
-      "id": 1,
-      "nombre": "Dorayaki",
-      "descripcion": "Postre tradicional japonés que consiste en dos pequeños panqueques esponjosos y redondos rellenos de una pasta dulce.",
-      "precio": 4000,
-      "imagen": "img/dora500.png"
-    },
-    {
-      "id": 2,
-      "nombre": "Castella",
-      "descripcion": "El castella es un pastel esponjoso y suave, hecho principalmente con ingredientes simples como azúcar, harina, huevos y miel. ",
-      "precio": 3500,
-      "imagen": "img/castella500.png"
-    },
-    {
-      "id": 3,
-      "nombre": "Cupcakes",
-      "descripcion": "El cheesecake japonés se caracteriza por su textura esponjosa, ligera y suave, a diferencia del cheesecake tradicional que tiene una textura más densa y cremosa.",
-      "precio": 6200,
-      "imagen": "img/cup500.png"
-    }
-  ]
+  {
+    "id": 1,
+    "nombre": "Dorayaki",
+    "descripcion": "Postre tradicional japonés que consiste en dos pequeños panqueques esponjosos y redondos rellenos de una pasta dulce.",
+    "precio": 4000,
+    "imagen": "https://imgs.search.brave.com/NYL_NJCrkjnP-FTqB7futNstQtM31lNtNIJJlFs3Hos/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/c2FsLXBpbWllbnRh/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMi8wMy8yMDIy/MDMxMS1EU0MwMDAz/My0yLTUwMHg1MDAu/anBn",
+    "categoria": "combos"
+  },
+  {
+    "id": 2,
+    "nombre": "Castella",
+    "descripcion": "El castella es un pastel esponjoso y suave, hecho principalmente con ingredientes simples como azúcar, harina, huevos y miel.",
+    "precio": 3500,
+    "imagen": "https://imgs.search.brave.com/3uiUbafl1SVaHdvuGfgl6DlAUCMQYReIFOWDyRNd07U/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbnZp/dGFkb2ludmllcm5v/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wOS9yZWNl/dGEtYml6Y29jaG8t/amFwb25lcy1rYXN1/dGVyYS1jYXN0ZWxs/YS0yLmpwZw",
+    "categoria": "productos"
+  },
+  {
+    "id": 3,
+    "nombre": "Cupcakes",
+    "descripcion": "El cheesecake japonés se caracteriza por su textura esponjosa, ligera y suave, a diferencia del cheesecake tradicional que tiene una textura más densa y cremosa.",
+    "precio": 6200,
+    "imagen": "https://imgs.search.brave.com/tN64zFxdZxo0efME68uYfqV0NQaNr7Ks5ehkQZhHyI4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQy/MzI4NTY2L3Bob3Rv/L3JlZC12ZWx2ZXQt/Y3VwY2FrZXMuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVhP/eTNubEVoZHU3ODU0/b19Mb3hkZ1hMNkZE/V3dkOTFvaWhfdFpJ/UTdocTA9",
+    "categoria": "combos"
+  }
+]

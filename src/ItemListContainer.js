@@ -1,35 +1,34 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import productosData from './productos.json'; 
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import productosData from './productos.json';
 import './item.css';
+import ItemList from './ItemList';  
 
-const ItemListContainer = ({ greeting, categoryId }) => {
-  const [products, setProducts] = useState([]);
+const ItemListContainer = ({ greeting }) => {
+  const [items, setItems] = useState([]);
+  const { id } = useParams();
 
   useEffect(() => {
-    
-    const filteredProducts = productosData.filter(
-      (product) => product.categoria === categoryId
-    );
-
-    setProducts(filteredProducts);
-  }, [categoryId]);
+    const fetchData = async () => {
+      try {
+        const data = await new Promise((resolve) => {
+          setTimeout(() => {
+            resolve(id ? productosData.filter((item) => item.categoria === id) : productosData);
+          }, 2000);
+        });
+        setItems(data);
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    };
+    fetchData();
+  }, [id]);
 
   return (
-    <div className="item-list-container">
-      <p className="greeting">{greeting}</p>
-      <ul>
-        {products.map((product) => (
-          <li key={product.id} className="item-container">
-            <Link to={`/item/${product.id}`}>
-              <img src={product.imagen} alt={product.nombre} className="item-image" />
-              <div className="item-name">{product.nombre}</div>
-              <div className="item-price">${product.precio}</div>
-              <p>{product.descripcion}</p>
-            </Link>
-          </li>
-        ))}
-      </ul>
+    <div className='container'>
+      <div className='row'>
+        <ItemList items={items} />
+      </div>
     </div>
   );
 };

@@ -38,7 +38,7 @@ const NavBar = () => {
               Combos
             </Link>
           </li>
-    
+          
           <li className="nav-item">
             <CartWidget itemCount={14} />
           </li>
